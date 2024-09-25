@@ -8,8 +8,7 @@ const font = IBM_Plex_Sans_Arabic({
     preload: true
 })
 
-export default function Layout({children})
-{
+export default function Layout({ children }) {
     return (
         <html lang="ar">
             <body className={font.className}>
@@ -17,4 +16,8 @@ export default function Layout({children})
             </body>
         </html>
     )
+}
+
+export const metadata = {
+    title: 'Landing Page'
 }
